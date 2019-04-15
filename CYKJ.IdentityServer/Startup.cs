@@ -63,7 +63,7 @@ namespace CYKJ.IdentityServer
             }
 
             app.UseIdentityServer();//启动 IdentityServer
-            app.UseStaticFiles();
+            //app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();//启动 MVC
         }
     }
